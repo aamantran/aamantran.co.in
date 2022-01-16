@@ -1,0 +1,184 @@
+
+        html,
+        body,
+        header,
+        .view {
+          height: 100%;
+          overflow-x: hidden;
+        }
+        .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+            color: #c30047;
+        }
+        .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show>.nav-link {
+            color: #1C2331;
+            font-weight:bold;
+        }
+        .bg-dark{
+            background-color:#fff!important;
+        }
+        .btn{
+          background-color:#c30047;
+          color:#fff;
+          border-radius:5px;
+        }
+        .btn:hover{
+          background-color:#fff;
+          color:#c30047;
+        }
+        .navbar{
+            top:0px;
+            position: fixed;
+            width:100%;
+            z-index:1;
+        }
+       
+        @media (max-width: 740px) {
+          html,
+          body,
+          header,
+          .view {
+            height: 1000px;
+          }
+        }
+        
+        @media (min-width: 800px) and (max-width: 850px) {
+          html,
+          body,
+          header,
+          .view {
+            height: 650px;
+          }
+        }
+        @media (min-width: 800px) and (max-width: 850px) {
+          .navbar:not(.top-nav-collapse) {
+             background: #1C2331!important;
+          }
+        }
+        
+        /* Navbar animation */
+        .navbar {
+          background-color: rgba(0, 0, 0, 0.3); }
+        
+        .top-nav-collapse {
+          background-color: #1C2331; }
+        
+        /* Adding color to the Navbar on mobile */
+        @media only screen and (max-width: 768px) {
+          .navbar {
+            background-color: #1C2331; } }
+        
+        /* Footer color for sake of consistency with Navbar */
+        .page-footer {
+          background-color: #1C2331; }
+
+           .section2 img{
+            border-radius: 2%!important;
+          }
+          .section2 p{
+          margin-left:5%;
+          margin-right:5%;
+          }
+          .section2 h1{
+            margin-left:5%;
+            margin-right:5%;
+            }
+            .section2 button{
+              margin-left:5%;
+              margin-right:5%;
+              }
+              .bannerimg{
+                background-image: url('../img/banner1.png');
+                height:auto;
+                width:100%;
+                background-repeat: no-repeat;
+              }
+              .bannerimg h1{
+                color:#fff;
+              }
+              .bannerimg h2{
+                color:#fff;
+              }
+              .section3{
+                background-image: url('../img/banner2.jpg');
+                height:200px;
+                width:100%;
+                background-repeat: no-repeat;
+              }
+              .section4 img,
+              .section5 img{
+                border-radius: 2%;
+              }
+              .section5 h3{
+                margin-left:5%;
+              }
+              .section5 p{
+                margin-left:5%;
+              }
+              h1:hover{
+                color:#c30047;
+              }
+              .footer-padding {
+                padding-top: 80px;
+                padding-bottom: 0px;
+            }
+            .footer-wrapper {
+              position: relative;
+              background: rgb(48, 26, 34);
+          }
+          .footer-wrapper .footer-area .footer-tittle p {
+            color: rgb(230, 218, 216);
+            font-size: 16px;
+        }
+        .footer-wrapper .footer-area .footer-pera p {
+          color: rgb(255, 255, 255);
+          font-size: 16px;
+          margin-bottom: 19px;
+          line-height: 1.8;
+      }
+      .footer-wrapper .footer-area .footer-tittle h4 {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        margin-bottom: 30px;
+        font-weight: 700;
+    }
+    .footer-wrapper .footer-area .footer-tittle ul li a {
+      color: rgb(230, 218, 216);
+      font-weight: 300;
+      font-size: 16px;
+      text-decoration: underline transparent;
+  }
+  #otis li {
+    list-style-type: none;
+   
+}
+#otis{
+  padding:0px;
+}
+.mainbanner{
+  margin-top:88px;
+}
+.navbar-align{
+  float:right;
+  margin-right: 10px;
+}
+.donatebtn{
+  margin-left:10px;
+}
+.donatebtn {
+   margin-left: 10px; 
+}
+.footer-copy-right small{
+  color:#fff;
+  font-weight: 100;
+}
+@media only screen and (max-width: 600px) {
+  .donatebtn {
+    margin-left: 0px; 
+ }
+ .section2 h1{
+   margin-top:20px;
+ }
+ .bannerimg{
+   display:none;
+ }
+}
